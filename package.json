@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@botsocket/jade": "^1.0.1"
+  },
+  "name": "repeat-plugin",
+  "version": "0.0.1",
+  "description": "Repeat Plugin for BotSocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BotSocket",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/eslint-plugin-hapi": "^4.3.6",
+    "eslint": "^7.23.0"
+  }
+}
