@@ -20,6 +20,10 @@ module.exports = {
                 },
                 handler: async (message, { args: { text }, flags: { channel } }) => {
 
+                    if (!message.member.hasPermission('ADMINISTRATOR')) {
+                        return message.reply(`You are missing the \`ADMINISTRATOR\` permission.`);
+                    }
+
                     let c = message.channel;
 
                     if (channel) {
