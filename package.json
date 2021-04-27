@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@botsocket/jade": "^1.0.1"
+    "@botsocket/jade": "^1.0.2"
   },
   "name": "repeat-plugin",
   "version": "0.0.1",
